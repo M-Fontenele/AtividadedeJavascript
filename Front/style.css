@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+}
+
+header {
+    height: 180px;
+    display: flex;
+    background-color: #9BD2DE;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#MenuCima {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+#image2 {
+    height: 100px;
+    width: 100px;
+}
+
+.titulo {
+    font-size: 24px;
+}
+
+#divTitulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#listaf {
+    margin-left: 160px;
+}
+
+#Lista {
+    margin-left: 180px;
+    width: 200px;
+}
+
+td {
+    width: 100px;
+    align-items: center;
+}
+
+#btnListarFilmes {
+    position: relative;
+    border: none;
+    left: 1090px;
+    height: 60px;
+    width: 180px;
+    background-color: #F6511D;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#separacao {
+    width: 1px;
+    height: 80%;
+    margin-top: 25px ;
+    background-color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    font-size: 18px;
+    background-color: #F6511D;
+}
+
+#textoFooter {
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.f {
+    margin-bottom: 25px;
+}
+
+#image3 {
+    margin-right: 50px;
+    margin-top: 40px;
+}
